@@ -34,12 +34,12 @@
     <!-- 监听器 -->
     <listeners>
         <!-- 优先级监听器 -->
-        <listener class-name="com.abcnull.listener.RePrioritizingListener"/>
+        <listener class-name="com.edc.listener.RePrioritizingListener"/>
         <!-- 测试日志监听器 -->
-        <listener class-name="com.abcnull.listener.TestLogListener"/>
+        <listener class-name="com.edc.listener.TestLogListener"/>
         <!-- BeautifulReport 测试报告监听器 -->
-        <listener class-name="com.abcnull.listener.TestReportListener"/>
+        <listener class-name="com.edc.listener.TestReportListener"/>
         <!-- 定制化测试报告监听器 -->
-        <listener class-name="com.abcnull.listener.ExtentTestReporterListener"/>
+        <listener class-name="com.edc.listener.ExtentTestReporterListener"/>
     </listeners>
 </suite>

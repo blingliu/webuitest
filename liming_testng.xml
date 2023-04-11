@@ -4,7 +4,7 @@
     <!-- 百度测试 -->
     <test name="百度测试" preserve-order="true">
         <classes>
-            <class name="com.abcnull.testcase.BaiduTest">
+            <class name="com.edc.testcase.BaiduTest">
                 <methods>
                     <!-- 搜索测试 -->
                     <include name="testSearch"/>
@@ -15,7 +15,7 @@
     <!-- abcnull 测试 -->
     <test name="abcnull测试" preserve-order="true">
         <classes>
-            <class name="com.abcnull.testcase.AbcnullTest">
+            <class name="com.edc.testcase.AbcnullTest">
                 <methods>
                     <!-- 搜索测试 -->
                     <include name="testSearch"/>
